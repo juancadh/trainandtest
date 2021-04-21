@@ -18,12 +18,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Train & Test"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Juan Camilo Diaz"
+subtitle                 : "Data Science and Programming"
+name                     : "Juan Camilo Díaz"
 description              : "A personal blog with data science and programming posts."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : "https://juancadh.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  :  # the subpath of your site, e.g. "/blog"
+repository               : "juancadh/trainandtest" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -95,14 +95,14 @@ analytics:
 # Site Author
 author:
   name             : "Juan Camilo Díaz"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpeg"
   bio              : "M.Sc Data Science with more than 4 years of experience as data analyst in financial sector. I love traveling and programming!"
   location         : "Lisbon, Portugal"
-  email            :
+  email            : "juancadh@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "juancadh@gmail.com"
+      url: "mailto:juancadh@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -266,7 +266,6 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
   # _posts
@@ -277,6 +276,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: #true
       share: true
       related: true
+
